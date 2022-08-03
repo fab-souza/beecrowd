@@ -11,6 +11,6 @@ numero_1 = input('Digite um número: ')
 numero_2 = input('Digite o segundo número: ')
 a = int(numero_1)
 b = int(numero_2)
-x = a + b
+X = a + b
 print('A soma deles é:')
-print('X = {}'.format(x))
+print('X = {}'.format(X))
