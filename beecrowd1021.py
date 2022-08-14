@@ -39,3 +39,6 @@ print('{} moeda(s) de R$ 0.25'.format(int(valor_moeda_vinte_cinco)))
 print('{} moeda(s) de R$ 0.10'.format(int(valor_moeda_dez)))
 print('{} moeda(s) de R$ 0.05'.format(int(valor_moeda_cinco)))
 print('{} moeda(s) de R$ 0.01'.format(int(valor_moeda_um)))
+
+
+# Por algum motivo, o Beecrowd não está aceitando esta resposta :/
