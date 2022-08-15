@@ -26,19 +26,20 @@ valor_moeda_cinco = resto // 0.05
 resto = resto % 0.05
 valor_moeda_um = resto // 0.01
 print('NOTAS:')
-print('{} nota(s) de R$ 100.00'.format(int(valor_cem)))
-print('{} nota(s) de R$ 50.00'.format(int(valor_cinquenta)))
-print('{} nota(s) de R$ 20.00'.format(int(valor_vinte)))
-print('{} nota(s) de R$ 10.00'.format(int(valor_dez)))
-print('{} nota(s) de R$ 5.00'.format(int(valor_cinco)))
-print('{} nota(s) de R$ 2.00'.format(int(valor_dois)))
+print('{:.0f} nota(s) de R$ 100.00'.format(valor_cem))
+print('{:.0f} nota(s) de R$ 50.00'.format(valor_cinquenta))
+print('{:.0f} nota(s) de R$ 20.00'.format(valor_vinte))
+print('{:.0f} nota(s) de R$ 10.00'.format(valor_dez))
+print('{:.0f} nota(s) de R$ 5.00'.format(valor_cinco))
+print('{:.0f} nota(s) de R$ 2.00'.format(valor_dois))
 print('MOEDAS:')
-print('{} moeda(s) de R$ 1.00'.format(int(valor_um)))
-print('{} moeda(s) de R$ 0.50'.format(int(valor_moeda_cinquenta)))
-print('{} moeda(s) de R$ 0.25'.format(int(valor_moeda_vinte_cinco)))
-print('{} moeda(s) de R$ 0.10'.format(int(valor_moeda_dez)))
-print('{} moeda(s) de R$ 0.05'.format(int(valor_moeda_cinco)))
-print('{} moeda(s) de R$ 0.01'.format(int(valor_moeda_um)))
+print('{:.0f} moeda(s) de R$ 1.00'.format(valor_um))
+print('{:.0f} moeda(s) de R$ 0.50'.format(valor_moeda_cinquenta))
+print('{:.0f} moeda(s) de R$ 0.25'.format(valor_moeda_vinte_cinco))
+print('{:.0f} moeda(s) de R$ 0.10'.format(valor_moeda_dez))
+print('{:.0f} moeda(s) de R$ 0.05'.format(valor_moeda_cinco))
+print('{:.0f} moeda(s) de R$ 0.01'.format(valor_moeda_um))
 
 
 # Por algum motivo, o Beecrowd não está aceitando esta resposta :/
+# E há muitas dúvidas, no fórum da plataforma, sobre a resposta do problema estar errada.
