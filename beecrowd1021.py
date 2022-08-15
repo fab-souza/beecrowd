@@ -15,7 +15,7 @@ valor_dois = resto // 2
 resto = resto % 2
 # moedas
 valor_um = resto // 1
-resto = valor % 1
+resto = resto % 1
 valor_moeda_cinquenta = resto // 0.50
 resto = resto % 0.50
 valor_moeda_vinte_cinco = resto // 0.25
