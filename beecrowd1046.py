@@ -10,9 +10,7 @@ elif (A < B):
   print('O JOGO DUROU {} HORA(S)'.format(horas))
 
 else:
-  horas = (B - 24) +A
-  if (horas < 0):
-    horas = horas * (-1)
-    print('O JOGO DUROU {} HORA(S)'.format(horas))
-  else:
-    print('O JOGO DUROU {} HORA(S)'.format(horas))
+  horas = (A - 24)
+  horas *= (-1)
+  horas += B
+  print('O JOGO DUROU {} HORA(S)'.format(horas))
