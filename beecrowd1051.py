@@ -22,3 +22,53 @@ salario = float(input())
 
 if (salario > 0 and salario <= 2000):
   print('Isento')
+
+elif (salario >= 2000.01 and salario <= 3000):
+  valor = salario - 2000
+  imposto = valor * 0.08
+  print('R$ {:.2f}'.format(imposto))
+  
+elif (salario >= 3000.01 and salario <= 4500.00):
+  valor = salario - 3000
+  imposto = (1000 * 0.08) + valor * 0.18
+  print('R$ {:.2f}'.format(imposto))
+
+elif (salario > 4500.00):
+  valor08 = 1000 * 0.08
+  valor18 = 1500 * 0.18
+  valor28 = (salario - 4500) * 0.28
+  imposto = valor08 + valor18 + valor28
+  print('R$ {:.2f}'.format(imposto))
+  
+else: #invertebrado
+  print('Valor incorreto.')
+
+
+  
+  
+# Minha versão:
+
+salario = float(input('Digite o salário do cliente: '))
+
+if (salario > 0 and salario <= 2000):
+  print('O valor do imposto é: Isento')
+
+elif (salario >= 2000.01 and salario <= 3000):
+  valor = salario - 2000
+  imposto = valor * 0.08
+  print('O valor do imposto é: R$ {:.2f}'.format(imposto))
+  
+elif (salario >= 3000.01 and salario <= 4500.00):
+  valor = salario - 3000
+  imposto = (1000 * 0.08) + valor * 0.18
+  print('O valor do imposto é: R$ {:.2f}'.format(imposto))
+
+elif (salario > 4500.00):
+  valor08 = 1000 * 0.08
+  valor18 = 1500 * 0.18
+  valor28 = (salario - 4500) * 0.28
+  imposto = valor08 + valor18 + valor28
+  print('O valor do imposto é: R$ {:.2f}'.format(imposto))
+  
+else: #invertebrado
+  print('Valor incorreto.')
