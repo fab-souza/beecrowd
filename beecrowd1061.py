@@ -16,3 +16,28 @@ Z segundo(s)
 
 Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.
 """
+
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
+
+dia1 = input()
+hora1 = input()
+dia2 = input()
+hora2 = input()
+
+data1 = dia1.split()
+data1 = data1[1]
+data2 = dia2.split()
+data2 = data2[1]
+
+f = "%d %H:%M:%S"
+
+comeco = (data1 + ' ' + hora1)
+final = (data2 + ' ' + hora2)
+
+inicio = datetime.strptime(comeco, f)
+fim = datetime.strptime(final, f)
+
+di = abs(relativedelta(inicio, fim))
+
+print(f'{di.days} dia(s) \n {di.hours} hora(s) \n {di.minutes} minuto(s) \n {di.seconds} segundo(s)')
