@@ -46,3 +46,8 @@ for valor in valores:
 
   else:
     continue
+
+print('{} valor(es) par(es)'.format(par))
+print('{} valor(es) impar(es)'.format(impar))
+print('{} valor(es) positivo(s)'.format(positivo))
+print('{} valor(es) negativo(s)'.format(negativo))
