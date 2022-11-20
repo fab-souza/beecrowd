@@ -8,4 +8,8 @@ Saída
 Imprima todos os valores ímpares de 1 até X, inclusive X, se for o caso.
 """
 
-x = int(input())
+valor1 = int(input())
+
+for rodada in range(1, 1000,2):
+  if (rodada <= valor1):
+    print(rodada)
