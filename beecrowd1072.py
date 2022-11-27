@@ -9,3 +9,22 @@ Cada caso de teste a seguir é um valor inteiro X (-107 < X <107).
 Saída
 Para cada caso, imprima quantos números estão dentro (in) e quantos valores estão fora (out) do intervalo.
 """
+
+valor_entrada = int(input())
+
+contador = 0
+dentro = 0
+fora = 0
+
+while contador < valor_entrada:
+  valor = int(input())
+  contador += 1
+  if (valor >= 10 and valor <= 20):
+    dentro += 1
+
+  else:
+    fora += 1
+    
+print('{} in'.format(dentro))
+print('{} out'.format(fora))
+
