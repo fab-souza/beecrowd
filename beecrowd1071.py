@@ -24,14 +24,11 @@ if (valor1 > valor2):
     if (i % 2 != 0):
       contador = contador + i  
 
-elif (valor1 < valor2):
+else:
   if (valor1 % 2 != 0):
     valor1 +=1
   for i in range(valor1, valor2):
     if (i % 2 != 0):
       contador = contador + i
 
-else:
-  continue
-
-print(contador)
+print('{}'.format(contador))
