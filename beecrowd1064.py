@@ -29,4 +29,4 @@ for valor in valores:
 
 media = valor_total / contador
 print('{} valores positivos'.format(contador))
-print(media)
+print('{:.1f}'.format(media))
