@@ -9,3 +9,11 @@ Saída
 Imprima todos valores que quando divididos por N dão resto = 2, um por linha.
 
 """
+
+entrada = int(input())
+contador = 1
+
+while contador < 10001:
+  if contador % entrada == 2:
+    print(contador)
+  contador += 1
