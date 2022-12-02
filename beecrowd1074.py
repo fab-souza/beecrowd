@@ -9,3 +9,29 @@ Saída
 Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo abaixo. Todas as letras deverão ser maiúsculas e sempre deverá haver um espaço entre duas palavras impressas na mesma linha.
 
 """
+
+quantidade = int(input())
+contador = 0
+
+while contador < quantidade:
+  entrada = 0
+  entrada = int(input())
+  if (entrada % 2 == 0):
+    # EVEN = par
+    if (entrada == 0):
+      print('NULL')
+
+    elif (entrada > 0):
+      print('EVEN POSITIVE')
+
+    else:
+      print('EVEN NEGATIVE')
+
+  else:
+    if (entrada > 0):
+      print('ODD POSITIVE')
+
+    else:
+      print('ODD NEGATIVE')
+  
+  contador += 1
