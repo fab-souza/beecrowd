@@ -7,3 +7,15 @@ O arquivo de entrada contém um valor inteiro N na primeira linha. Cada N linha 
 Saída
 Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exemplo abaixo.
 """
+
+repeticao = int(input())
+contador = 0
+
+while contador < repeticao:
+  A, B, C = map(float, input().split())
+  primeiro = A * 2
+  segundo = B * 3
+  terceiro = C * 5
+  media_ponderada = (primeiro + segundo + terceiro) / 10
+  print('{:.1f}'.format(media_ponderada))
+  contador += 1
