@@ -17,7 +17,7 @@
 
 Decidi treinar minha lógica de programação no Beecrowd, mas achei as respostas "diretas demais" e sem muita informação sobre do que se trata o código. Por isso, vou refatorar os códigos e deixá-los mais 'apresentáveis'.
 
----
-<h3>Ferramentas utilizadas:</h3>
-    <p> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
+
+## Ferramentas utilizadas 🧰
+<p> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> 
     </p>
