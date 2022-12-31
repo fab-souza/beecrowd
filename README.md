@@ -14,8 +14,8 @@
 
 ![](https://user-images.githubusercontent.com/67301805/196290905-286a13e3-4326-4e36-9ae2-45138365c8d2.jpg#vitrinedev)
 
-
-Decidi treinar minha lógica de programação no Beecrowd, mas achei as respostas "diretas demais" e sem muita informação sobre do que se trata o código. Por isso, vou refatorar os códigos e deixá-los mais 'apresentáveis'.
+## Minha prática 👩🏻‍💻
+Decidi treinar minha lógica de programação no Beecrowd, mas achei as respostas "diretas demais" e sem muita informação sobre do que se trata o código. Por isso, vou refatorar os códigos e deixá-los mais apresentáveis.
 
 
 ## Ferramentas utilizadas 🧰
