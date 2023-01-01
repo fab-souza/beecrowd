@@ -9,3 +9,38 @@ A primeira linha de entrada contém um valor inteiro N que indica os vários cas
 Saída
 Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizada e o percentual de cada uma em relação ao total de cobaias utilizadas, sendo que o percentual deve ser apresentado com dois dígitos após o ponto.
 """
+
+casos_de_testes = int(input())
+contador = 0
+soma_cobaias = 0
+soma_coelhos = 0
+soma_ratos = 0
+soma_sapos = 0
+
+while contador < casos_de_testes:
+  numero_tipo = input()
+  numero, tipo = numero_tipo.split()
+  cobaia = int(numero)
+  soma_cobaias += cobaia
+  if tipo == 'C':
+    soma_coelhos += cobaia
+
+  elif tipo == 'R':
+    soma_ratos += cobaia
+
+  else:
+    soma_sapos += cobaia
+    
+  contador += 1
+
+percent_coelhos = (soma_coelhos * 100) / soma_cobaias
+percent_ratos = (soma_ratos * 100) / soma_cobaias
+percent_sapos = (soma_sapos * 100) / soma_cobaias
+
+print('Total: {} cobaias'.format(soma_cobaias))
+print('Total de coelhos: {}'.format(soma_coelhos))
+print('Total de ratos: {}'.format(soma_ratos))
+print('Total de sapos: {}'.format(soma_sapos))
+print('Percentual de coelhos: {:.2f} %'.format(percent_coelhos))
+print('Percentual de ratos: {:.2f} %'.format(percent_ratos))
+print('Percentual de sapos: {:.2f} %'.format(percent_sapos))
