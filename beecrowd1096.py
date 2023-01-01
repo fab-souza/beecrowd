@@ -7,3 +7,14 @@ Não há nenhuma entrada neste problema.
 Saída
 Imprima a sequencia conforme exemplo abaixo
 """
+
+I = 1
+J = 7
+
+while I <= 9:
+  print('I={} J={}'.format(I, J))
+  I += 0
+  J -= 1
+  if J == 4:
+    I += 2
+    J = 7
