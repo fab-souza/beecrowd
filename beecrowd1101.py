@@ -14,3 +14,26 @@ Para cada dupla de valores, imprima a sequência do menor até o maior e a soma 
 5 0
 
 """
+
+contador = 0
+
+while (contador < 1000):
+  M, N = map(int, input().split())
+  soma = 0
+  if (M > 0 and N > 0):
+    if (M < N):
+      for numero in range(M, N+1):
+        soma += numero
+        print(numero, end = ' ')
+      print('Sum={}'.format(soma))
+      contador += 1
+    
+    else:
+      for numero in range(N, M+1):
+        soma += numero
+        print(numero, end = ' ')
+      print('Sum={}'.format(soma))
+      contador += 1
+  
+  else:
+    break
