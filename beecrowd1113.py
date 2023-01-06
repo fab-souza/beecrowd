@@ -13,6 +13,7 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 7 2   Decrescente
 3 8   Crescente
 2 2   
+
 """
 
 contador = 0
