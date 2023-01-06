@@ -8,4 +8,24 @@ A entrada contém vários casos de teste. Cada caso contém dois valores inteiro
 
 Saída
 Para cada caso de teste imprima “Crescente”, caso os valores tenham sido digitados na ordem crescente, caso contrário imprima a mensagem “Decrescente”.
+
+5 4   Decrescente
+7 2   Decrescente
+3 8   Crescente
+2 2   
 """
+
+contador = 0
+
+while (contador < 1000):
+  M, N = map(int, input().split())
+  if (M == N):
+    break
+    
+  elif (M < N):
+    print('Crescente')
+    contador += 1
+    
+  else:
+    print('Decrescente')
+    contador += 1
