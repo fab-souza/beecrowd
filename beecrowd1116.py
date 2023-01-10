@@ -18,3 +18,35 @@ Exemplo
 -8 0      0.0
 0 8     
 """
+
+quantidade = int(input())
+contador = 0
+
+while (contador < quantidade):
+  x, y = map(int, input().split())
+  resultado = 0
+  if (y == 0):
+    print('divisao impossivel')
+    contador += 1
+    
+  else:
+    resultado = x / y
+    print(resultado)
+    contador += 1
+    
+#================== Minha versão =====================
+
+quantidade = int(input('Digite a quantidade de operações que quer fazer: '))
+contador = 0
+
+while (contador < quantidade):
+  x, y = map(int, input('Digite o numerador e denominador: ').split())
+  resultado = 0
+  if (y == 0):
+    print('divisao impossivel')
+    contador += 1
+    
+  else:
+    resultado = x / y
+    print(resultado)
+    contador += 1
