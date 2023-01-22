@@ -27,3 +27,37 @@ Exemplo
 2
 
 """
+
+def calcula_media():
+  contador = 0
+  soma = 0
+  while (contador < 2):
+    nota = float(input())
+  
+    if (nota < 0 or nota > 10):
+      print('nota invalida')
+    
+    else:
+      soma += nota
+      contador += 1
+  
+  media = soma / 2
+  print('media = {}'.format(media))
+
+calcula_media()
+
+def mais_nota():
+  contador = 0
+  
+  while (contador < 20):
+    resposta = int(input('novo calculo (1-sim 2-nao)\n'))
+    if resposta == 1:
+      calcula_media()
+    
+    elif resposta == 2:
+      break
+
+    else:
+      pass
+
+mais_nota()
