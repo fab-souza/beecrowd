@@ -26,3 +26,38 @@ Exemplo
           Inter venceu mais
 
 """
+
+contagem = 0
+grenal = 1
+gremio = 0
+inter = 0
+empate = 0
+
+while contagem < 1000:
+  inter_saldo, gremio_saldo = map(int, input().split())
+
+  if gremio_saldo > inter_saldo:
+    gremio += 1
+
+  elif gremio_saldo == inter_saldo:
+    empate += 1
+
+  else:
+    inter += 1
+
+  mais_um = int(input('Novo grenal (1-sim 2-nao)\n'))
+  if mais_um == 1:
+    grenal += 1
+    continue
+
+  else:
+    break
+
+print('{} grenais'.format(grenal))
+print('Inter:{}'.format(inter))
+print('Gremio:{}'.format(gremio))
+print('Empates:{}'.format(empate))
+if gremio > inter:
+  print('Gremio venceu mais')
+else:
+  print('Inter venceu mais')
