@@ -14,3 +14,26 @@ Exemplo
 200       
 
 """
+
+x = int(input())
+y = int(input())
+
+soma = 0
+
+if (x > y):
+  for valor in range(y, x + 1):
+    if valor % 13 != 0:
+      soma += valor
+    else:
+       continue
+  
+  print(soma)
+
+else:
+  for valor in range(x, y + 1):
+    if valor % 13 != 0:
+      soma += valor
+    else:
+       continue
+    
+  print(soma)
