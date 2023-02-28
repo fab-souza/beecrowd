@@ -15,3 +15,20 @@ Exemplo
          17
 
 """
+
+x = int(input())
+y = int(input())
+
+if (x > y):
+  for valor in range(y, x):
+    if (valor % 5 == 2 or valor % 5 == 3):
+      print(valor)
+    else:
+       continue
+
+else:
+  for valor in range(x, y):
+    if (valor % 5 == 2 or valor % 5 == 3):
+      print(valor)
+    else:
+       continue
