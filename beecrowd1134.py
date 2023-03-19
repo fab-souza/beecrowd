@@ -18,3 +18,30 @@ Exemplo de Entrada
 4                 
 
 """
+
+alcool = 0
+gasolina = 0
+diesel = 0
+contador = 0
+
+while contador < 1:
+  combustivel = int(input())
+  if combustivel == 1:
+    alcool +=1
+
+  elif combustivel == 2:
+    gasolina +=1
+
+  elif combustivel == 3:
+    diesel +=1
+
+  elif combustivel == 4:
+    contador +=2
+
+  else:
+    continue
+
+print('MUITO OBRIGADO')
+print('Alcool: {}'.format(alcool))
+print('Gasolina: {}'.format(gasolina))
+print('Diesel: {}'.format(diesel))
