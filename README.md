@@ -9,7 +9,7 @@
 | -------------  | --- |
 | :sparkles: Nome        | **beecrowd - Iniciante**
 | :label: Tecnologias | python
-| :rocket: URL         | https://github.com/fab-souza/beecrowd/
+| :rocket: URL         | 
 | :fire: Desafio     | [beecrowd](https://www.beecrowd.com.br/judge/pt/problems/index/1)
 
 ![](https://user-images.githubusercontent.com/67301805/196290905-286a13e3-4326-4e36-9ae2-45138365c8d2.jpg#vitrinedev)
